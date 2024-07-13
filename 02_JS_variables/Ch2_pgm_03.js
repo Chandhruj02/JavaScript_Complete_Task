@@ -6,7 +6,7 @@ console.log(score);
 var score2;
 score2 = 55;
 console.log(score2);
-
+// Completed
 
 
 /* Further Adventures
