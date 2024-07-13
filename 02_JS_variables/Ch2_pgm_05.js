@@ -13,7 +13,7 @@ console.log(message);
 
 message = "Hello" + "World" + "!";
 console.log(message);
-
+// Completed
 
 
 /* Further Adventures
