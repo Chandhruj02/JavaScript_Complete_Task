@@ -13,7 +13,7 @@ console.log(score2);
 
 score2 = 110;
 console.log(score2);
-
+// Completed
 
 
 /* Further Adventures
