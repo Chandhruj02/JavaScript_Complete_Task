@@ -10,6 +10,11 @@ console.log("New score: " + score);
 
 console.log("Way to go!");
 
+// Worked answer
+console.log("Successful splat");
+score += 100;
+console.log("New Score: "+score);
+console.log("congratulations More to go!");
 
 
 /* Further Adventures
