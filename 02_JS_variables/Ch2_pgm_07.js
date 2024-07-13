@@ -7,7 +7,7 @@ console.log(playerName + " is in " + locationName);
 
 var health = 55;
 console.log(playerName+" has health "+health+" and is in "+locationName);
-
+// Completed
 /* Further Adventures
  *
  * 1) Declare a health variable and assign it
