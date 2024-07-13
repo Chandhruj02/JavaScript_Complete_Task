@@ -5,7 +5,8 @@ var locationName = "The Dungeon of Doom";
 
 console.log(playerName + " is in " + locationName);
 
-
+var health = 55;
+console.log(playerName+" has health "+health+" and is in "+locationName);
 
 /* Further Adventures
  *
