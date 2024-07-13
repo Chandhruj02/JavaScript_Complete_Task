@@ -15,6 +15,7 @@ console.log("Successful splat");
 score += 100;
 console.log("New Score: "+score);
 console.log("congratulations More to go!");
+// Completed
 
 
 /* Further Adventures
