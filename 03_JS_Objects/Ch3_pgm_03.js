@@ -3,14 +3,24 @@
 var book;
 
 book = {
-    title : "The Hobbit",
+    title : "The Hobbit, or There and Back Again",
     author : "J. R. R. Tolkien",
     published : 1937
 };
 
 console.log(book);
 
+// Book2
+var book2;
 
+book = {
+    title : "The titans world",
+    author : "J. K.",
+    published : 2022
+};
+
+console.log(book);
+console.log(book2);
 
 /* Further Adventures
  *
