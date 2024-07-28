@@ -22,6 +22,12 @@ movie3 = {
   directors: "J.J.Abrams"
 };
 
+movie4 = {
+  title: "Theri - vijay Movie",
+  actors: "Vijay, Samanatha, Amy",
+  directors: "Atlee"
+};
+
 console.log("Movie information for " + movie1.title);
 console.log("------------------------------");
 console.log("Actors: " + movie1.actors);
@@ -40,6 +46,27 @@ console.log("Actors: " + movie3.actors);
 console.log("Directors: " + movie3.directors);
 console.log("------------------------------");
 
+console.log("Movie information for " + movie4.title);
+console.log("------------------------------");
+console.log("Actors: " + movie4.actors);
+console.log("Directors: " + movie4.directors);
+console.log("------------------------------");
+// ------------------------------------------------------------------
+
+var event1 = {
+  title : "Making the To-Do List",
+  date : "05-07-2024",
+  Time : "9:00 AM" 
+}
+
+var event2 = {
+  title : "Making the First Task",
+  date : "05-07-2024",
+  Time : "10:00 AM" 
+}
+
+console.log(event1);
+console.log(event2);
 
 
 /* Further Adventures
