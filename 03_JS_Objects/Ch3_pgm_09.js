@@ -13,8 +13,14 @@ book2 = {
 	author: "Philip Pullman"
 };
 
+book3 = {
+	title: "The kings of titans",
+	author: "Chandhru J"
+};
+
 console.log(book1.title + " by " + book1.author);
 console.log(book2.title + " by " + book2.author);
+console.log(book3.title + " by " + book3.author);
 
 
 
