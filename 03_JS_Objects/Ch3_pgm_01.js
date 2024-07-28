@@ -8,8 +8,17 @@ bookAuthor = "J. R. R. Tolkien";
 
 console.log(bookTitle + " by " + bookAuthor);
 
+var bookTitle2;
+var bookAuthor2;
+bookTitle2 = "The Rules of King";
+bookAuthor2 = "J. K. Row";
+console.log(bookTitle2 + " by " + bookAuthor2);
 
-
+var bookTitle3;
+var bookAuthor3;
+bookTitle2 = "The Rules of Bishop";
+bookAuthor2 = "J. K. Row";
+console.log(bookTitle3 + " by " + bookAuthor3);
 /* Further Adventures
  *
  * 1) Declare variables for a second book
