@@ -5,14 +5,17 @@ var book2;
 
 book1 = {
     title : "The Hobbit",
-    author : "J. R. R. Tolkien"
+    author : "J. R. R. Tolkien",
+    published_on : "09-2022"
 };
 
 book2 = {
 	title : "Northern Lights",
-	author : "Philip Pullman"
+	author : "Philip Pullman",
+	published_on : "12-2002"
 };
 
+console.log();
 
 
 /* Further Adventures
