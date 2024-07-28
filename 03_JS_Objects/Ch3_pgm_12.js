@@ -8,7 +8,18 @@ var post = {
 	body : "You will not believe where I just woke up!! Only on a comet..."
 };
 
+var post2 = {
+	id : 2,
+	title : "My Crazy College Times",
+	author : "Chandhru",
+	created : "2022-02-22",
+	body : "You will not believe where I just woke up!! Only on a comet..."
+};
 
+console.log(post.id);
+console.log(post2.id);
+console.log(post.title);
+console.log(post2.title);
 
 /* Further Adventures
  *
