@@ -8,13 +8,25 @@ findTotal = function () {
 };
 
 displayMenu = function () {
-	console.log("Please choose an option:");
-	console.log("(1) Print log");
-	console.log("(2) Upload file");
-	console.log("(9) Quit");
+		console.log("Please choose an option:");
+		console.log("(1) Print log");
+		console.log("(2) Upload file");
+		console.log("(9) Quit");
 };
 
+var number1;
+var number2;
+var result;
 
+number1 = 25;
+number2 = 24;
+
+result = function findTotal() {
+	var sum = number1 + number2;
+	console.log("The total is:" + sum );
+}
+
+result();
 
 /* Further Adventures
  *
