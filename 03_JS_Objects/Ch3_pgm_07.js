@@ -15,8 +15,8 @@ book2 = {
 	published_on : "12-2002"
 };
 
-console.log();
-
+console.log(book1);
+consloe.log(book2);
 
 /* Further Adventures
  *
