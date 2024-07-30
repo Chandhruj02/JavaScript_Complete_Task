@@ -10,7 +10,15 @@ sayHello();
 sayHello();
 sayHello();
 
+var sayHelloDown;
 
+sayHelloDown = function () {
+	console.log("\nHello World!");
+};
+
+sayHelloDown();
+sayHelloDown();
+sayHelloDown();
 
 /* Further Adventures
  *
