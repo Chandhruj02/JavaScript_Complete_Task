@@ -4,9 +4,10 @@ var msg;
 var showMessage;
 
 msg = "It's full of stars!";
+msg2 = "It's full of happiness";
 
 showMessage = function () {
-	console.log(message);
+	console.log(msg + msg2);
 };
 
 showMessage();
