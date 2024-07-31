@@ -2,6 +2,7 @@
 
 var movie1;
 var showMovieInfo;
+var showMovieInfo2;
 var movie;
 
 movie1 = {
@@ -20,7 +21,22 @@ showMovieInfo = function () {
 
 movie = movie1;
 
+movie2 = {
+    title: "Vikram",
+    actors: "Vijay, Trisha",
+    directors: "Lokesh Kanagaraj"
+};
+
+showMovieInfo2 = function () {
+	console.log("Movie information for " + movie2.title);
+	console.log("------------------------------");
+	console.log("Actors: " + movie2.actors);
+	console.log("Directors: " + movie2.directors);
+	console.log("------------------------------");
+  };
+
 showMovieInfo();
+showMovieInfo2();
 
 
 
