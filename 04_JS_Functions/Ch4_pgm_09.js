@@ -10,7 +10,14 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
+var movie;
+movie = {
+  title : "Vikram",
+  actors : "Vijay, Trisha",
+  directors : "Loskesh Kanagaraj"
+}
 
+showMovieInfo();
 
 /* Further Adventures
  *
