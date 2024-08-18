@@ -19,7 +19,6 @@ var getPlayerItems = function (playerName, playerItems) {
 var getBorder = function () {
     return "================================";
 };
-
 var getPlayerInfo = function (playerName, playerPlace, playerHealth, playerItems) {
     var playerInfo;
 
@@ -33,27 +32,20 @@ var getPlayerInfo = function (playerName, playerPlace, playerHealth, playerItems
 
     return playerInfo;
 };
-
 var player1 = {
     name: "Kandra",
     place: "The Dungeon of Doom",
     health: 50,
     items: "a rusty key, a piece of cheese"
 };
-
 var player2 = {
     name: "Dax",
     place: "The Old Library",
     health: 40,
     items: "an ancient book, a candle"
 };
-
 console.log(getPlayerInfo(player1.name, player1.place, player1.health, player1.items));
 console.log(getPlayerInfo(player2.name, player2.place, player2.health, player2.items));
-
-
-
-
 /* Further Adventures
  *
  * 1) Add an items property to both players.
