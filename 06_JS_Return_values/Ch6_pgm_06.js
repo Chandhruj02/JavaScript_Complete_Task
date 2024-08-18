@@ -21,7 +21,7 @@ totalCost = function (callOutCharge, costPerHour, numberOfHours) {
     return callOutCharge + costPerHour * numberOfHours;
 };
 
-
+// Code executed
 
 /* Further Adventures
  *

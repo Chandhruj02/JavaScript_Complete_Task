@@ -3,12 +3,19 @@
 var getPlayerName;
 
 getPlayerName = function (playerName) {
-    return playerName;
+    // Add the prefix and suffix
+    var formattedName = "==== " + playerName + " ====";
+
+    // Add the border with new lines
+    var borderedName = "\n|\n| " + formattedName + "\n|";
+
+    return borderedName;
 };
 
 console.log(getPlayerName("Kandra"));
-
-
+console.log(getPlayerName("Kiki"));
+console.log(getPlayerName("Mahesha"));
+console.log(getPlayerName("Jahver"));
 
 /* Further Adventures
  *

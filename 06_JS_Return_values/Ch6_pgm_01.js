@@ -2,6 +2,7 @@
 
 var getMessage;
 var response;
+var getMyMessage;
 
 getMessage = function () {
     return "I’m going on an adventure!";
@@ -11,6 +12,9 @@ response = getMessage();
 
 console.log(response);
 
+getMyMessage = function () {
+    return "Hello from chandhru!";
+}
 
 
 /* Further Adventures
