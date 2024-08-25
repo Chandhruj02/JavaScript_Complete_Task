@@ -11,11 +11,23 @@ planet1 = {
     sizeRank: 1
 };
 
+planet2 = {
+    name: "Earth",
+    position: 3,
+    type: "Human's Planet",
+    radius: 69911,
+    sizeRank: 3
+};
+
 getPlanetInfo = function (planet) {
-    return planet.name + ": planet number " + planet.position;
+    return (
+        planet.name + "planet number : " + planet.position + "\n" + "Planet Type:" +
+        planet.type + "\nPlanet Rank:" + planet.sizeRank 
+    )
 };
 
 console.log(getPlanetInfo(planet1));
+console.log(getPlanetInfo(planet2));
 
 
 
