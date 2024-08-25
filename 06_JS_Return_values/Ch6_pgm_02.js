@@ -6,12 +6,8 @@ var fullMessage;
 getHelloTo = function (name) {
     return "Hello to " + name;
 };
-
 fullMessage = getHelloTo("Kandra");
-
 console.log(fullMessage);
-
-
 
 /* Further Adventures
  *
