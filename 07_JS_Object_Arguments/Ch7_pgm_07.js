@@ -2,10 +2,19 @@
 
 var planet = "Jupiter";
 var bigPlanet = planet.toUpperCase();
-
 console.log(planet + " becomes " + bigPlanet);
 
+var getBig;
+getBig = function (planet){
+    return planet.toUpperCase();
+}
+console.log("earth becomes: "+getBig("earth"));
 
+var getSmall;
+getSmall = function (planet){
+    return planet.toLowerCase();
+}
+console.log("MARS becomes: "+getSmall("MARS"));
 
 /* Further Adventures
  *

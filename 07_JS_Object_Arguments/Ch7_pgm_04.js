@@ -4,6 +4,7 @@ var point1;
 var point2;
 var move;
 var showPoint;
+var reflectX;
 
 move = function (point, change) {
     return {
@@ -16,13 +17,23 @@ showPoint = function (point) {
     console.log("( " + point.x + " , " + point.y + " )");
 };
 
-point1 = { x : 2, y : 5 };
+point1 = { x : 4, y : 6 };
 
 point2 = move(point1, { x : 4, y : -2 });
+
+reflectX = function (point){
+    return {
+        x: point.x,
+        y: -point.y
+    }
+} 
 
 showPoint(point1);
 console.log("Move 4 across and 2 down");
 showPoint(point2);
+var reflectedPoint = reflectX(point1);
+console.log("Reflected across X-axis:");
+showPoint(reflectedPoint);
 
 
 

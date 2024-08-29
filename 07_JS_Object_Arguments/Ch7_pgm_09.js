@@ -3,10 +3,17 @@
 var message = "We choose to go to the Moon!";
 
 var charIndex = message.indexOf("M");
+console.log(charIndex);
+console.log(message.substr(charIndex, 4));
 
-console.log(message.substr(charIndex, 3));
+var charIndex2 = message.indexOf("go");
+console.log(charIndex2);
 
+var charIndex3 = message.indexOf("c");
+console.log("'choose' from the message string: "+message.substring(charIndex3,9));
 
+var charLastIndex = message.lastIndexOf("oo");
+console.log("Last index of '00' in the word 'Moon': " + charLastIndex);
 
 /* Further Adventures
  *

@@ -33,3 +33,26 @@ console.log(getPlanetInfo(planet2));
  *    display objects that represent cars.
  *
  */
+
+var buildCars;
+var getCarsinfo;
+var Car1;
+var Car2;
+
+function buildCars(Name, Fueltype, TopSpeed){
+    return {
+        Name : Name,
+        Cartype : Fueltype,
+        Speed : TopSpeed
+    }
+}
+
+getCarsinfo = (car) => {
+    return "Car Name:" + car.Name + "\nCar Type:" + car.Cartype;  
+}
+
+Car1 = buildCars("BMW", "Petrol", 200);
+Car2 = buildCars("BMW-M3", "Petrol", 210);
+
+console.log(getCarsinfo(Car1));
+console.log(getCarsinfo(Car2));
